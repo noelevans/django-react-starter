@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import RFlow from "./RFlow";
 import Chart from "./Charts";
+import Grid from "./Grid";
 
 export default function App() {
     return (
@@ -11,6 +12,7 @@ export default function App() {
             <Routes>
                 <Route path='/flow' element={<RFlow />} />
                 <Route path='/charts' element={<Chart />} />
+                <Route path='/grid' element={<Grid />} />
             </Routes>
         </Router>
     )

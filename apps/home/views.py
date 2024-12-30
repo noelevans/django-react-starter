@@ -16,6 +16,9 @@ def flow(request):
     # Page from the theme
     return render(request, "pages/reactflow.html")
 
+def grid(request):
+    return render(request, "pages/grid.html")
+
 def charts(request):
     countries = list(Sales.objects.values_list('country', flat=True))
     country_counts = Counter(countries)
