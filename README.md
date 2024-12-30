@@ -13,7 +13,6 @@ Open-source **Django Starter** bundled with React, React-Flow - Actively support
 
 - 🚀 `Stack`: **Django** & **React**
 - ✅ Tooling: `Webpack`
-- ✅ `Design`: [Django Theme Datta](https://github.com/app-generator/django-admin-datta) - `Free Version`
 - ✅ `Sections` covered by the design:
   - ✅ **Admin section** (reserved for superusers)
   - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
