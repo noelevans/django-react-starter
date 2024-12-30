@@ -21,3 +21,9 @@ def charts(request):
     country_counts = Counter(countries)
     country_count = [{'country': country, 'count': country_counts[country]} for country in country_counts]
     return render(request, "pages/recharts.html", {"country_count": country_count})
+
+def constants(request):
+    return {
+        'pi': 3.14159265358932,
+        'e': 2.71828,
+    }
